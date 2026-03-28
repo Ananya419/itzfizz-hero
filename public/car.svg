@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" fill="none">
+  <!-- Car body -->
+  <path d="M20 55 L30 25 Q35 15 50 15 L140 15 Q155 15 165 25 L180 45 Q185 55 175 55 Z" fill="#fa7328"/>
+  <!-- Car roof/windshield -->
+  <path d="M55 15 L60 25 L130 25 L140 15 Z" fill="#333" opacity="0.7"/>
+  <!-- Front windshield glass -->
+  <path d="M130 25 L140 15 L155 15 Q160 15 162 20 L155 25 Z" fill="#555" opacity="0.5"/>
+  <!-- Rear windshield glass -->
+  <path d="M60 25 L55 15 L50 15 Q45 15 40 20 L45 25 Z" fill="#555" opacity="0.5"/>
+  <!-- Top detail line -->
+  <path d="M45 25 L155 25" stroke="#e06520" stroke-width="1"/>
+  <!-- Front wheel -->
+  <ellipse cx="155" cy="55" rx="18" ry="12" fill="#222"/>
+  <ellipse cx="155" cy="55" rx="12" ry="8" fill="#444"/>
+  <ellipse cx="155" cy="55" rx="5" ry="3" fill="#666"/>
+  <!-- Rear wheel -->
+  <ellipse cx="45" cy="55" rx="18" ry="12" fill="#222"/>
+  <ellipse cx="45" cy="55" rx="12" ry="8" fill="#444"/>
+  <ellipse cx="45" cy="55" rx="5" ry="3" fill="#666"/>
+  <!-- Side stripe -->
+  <path d="M35 40 L170 40" stroke="#e06520" stroke-width="2" opacity="0.6"/>
+  <!-- Headlights -->
+  <ellipse cx="180" cy="35" rx="3" ry="6" fill="#ffdd44"/>
+  <ellipse cx="180" cy="50" rx="3" ry="6" fill="#ffdd44"/>
+  <!-- Tail lights -->
+  <ellipse cx="22" cy="35" rx="3" ry="5" fill="#ff3333"/>
+  <ellipse cx="22" cy="50" rx="3" ry="5" fill="#ff3333"/>
+  <!-- Body contour -->
+  <path d="M20 55 L30 25 Q35 15 50 15 L140 15 Q155 15 165 25 L180 45 Q185 55 175 55" stroke="#d05a1a" stroke-width="1.5" fill="none"/>
+  <!-- Wheel arches -->
+  <path d="M25 55 Q45 42 65 55" stroke="#c04a10" stroke-width="1.5" fill="none"/>
+  <path d="M135 55 Q155 42 175 55" stroke="#c04a10" stroke-width="1.5" fill="none"/>
+</svg>
